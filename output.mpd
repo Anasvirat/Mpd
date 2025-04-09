@@ -8,7 +8,7 @@
 	minimumUpdatePeriod="PT10S"
 	suggestedPresentationDelay="PT10S"
 	availabilityStartTime="2025-04-09T14:59:02.479Z"
-	publishTime="2025-04-09T15:21:15.417Z"
+	publishTime="2025-04-09T15:21:19.464Z"
 	timeShiftBufferDepth="PT52.1S"
 	maxSegmentDuration="PT4.0S"
 	minBufferTime="PT20.8S">
@@ -19,9 +19,9 @@
 	<Period id="0" start="PT0.0S">
 		<AdaptationSet id="0" contentType="video" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" frameRate="24000/1001" maxWidth="1280" maxHeight="720" par="16:9">
 			<Representation id="0" mimeType="video/mp4" codecs="avc1.42c01f" bandwidth="500000" width="1280" height="720" sar="1:1">
-				<SegmentTemplate timescale="24000" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="123">
+				<SegmentTemplate timescale="24000" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="124">
 					<SegmentTimeline>
-						<S t="30530500" d="250250" r="4" />
+						<S t="30780750" d="250250" r="4" />
 					</SegmentTimeline>
 				</SegmentTemplate>
 			</Representation>
@@ -29,12 +29,13 @@
 		<AdaptationSet id="1" contentType="audio" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true">
 			<Representation id="1" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="96000" audioSamplingRate="44100">
 				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
-				<SegmentTemplate timescale="44100" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="328">
+				<SegmentTemplate timescale="44100" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="329">
 					<SegmentTimeline>
-						<S t="57896902" d="177152" r="1" />
+						<S t="58074054" d="177152" />
 						<S d="177151" />
 						<S d="177153" />
 						<S d="177152" />
+						<S d="177151" />
 					</SegmentTimeline>
 				</SegmentTemplate>
 			</Representation>
