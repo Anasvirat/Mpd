@@ -11,6 +11,6 @@ while true; do
         echo "No changes to commit."
     fi
 
-    sleep 1
+    sleep 10
 done
 
